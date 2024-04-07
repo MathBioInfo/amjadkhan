@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <link rel="icon" href="labsymb.png" type="image/x-icon">
   <meta http-equiv="refresh" content="300">
@@ -10,10 +9,17 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <style>
-img {
-  border-radius: 50%;
-}
-</style>
+    img {
+      border-radius: 50%;
+    }
+    /* Additional CSS for img-fit class */
+    .img-fit {
+      object-fit: cover; /* Adjust this to 'contain' if you want to see the whole image without cropping */
+      width: 200px; /* Width as per your requirement */
+      height: auto; /* Adjust height automatically to maintain aspect ratio */
+      border-radius: 50%; /* Optional: if you want the image to have rounded corners */
+    }
+  </style>
   <title>Amjad Khan - Home</title>
 
   <!-- Bootstrap Core CSS -->
@@ -23,15 +29,12 @@ img {
   <link href="css/dme65.css" rel="stylesheet">
 
   <!-- Icons -->
-  <link href="css/academicons.css" rel="stylesheet" >
-  <link href="css/font-awesome.css" rel="stylesheet" >
+  <link href="css/academicons.css" rel="stylesheet">
+  <link href="css/font-awesome.css" rel="stylesheet">
 </head>
-
 <body>
   <!-- Navigation -->
-	
-	<!--<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">-->
-	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container black">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -45,32 +48,19 @@ img {
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbar">
-        <ul class ="nav navbar-nav navbar-right">
-          <li>
-            <a href="https://mathbioinfo.github.io/amjadkhan/">Home</a>
-          </li>
-          <li>
-            <a href="research.html">Research</a>
-          </li>
-	  <li>
-           <a href="Data/cvkhan.pdf" target="_blank">CV</a>
-          </li>
-          <li>
-            <a href="teaching.html">Teaching</a>
-          </li>
-          <li>
-            <a href="presentations.html">Publications</a>
-          </li>
-	 <li>
-            <a href="">Linux</a>
-          </li>
-		<li>
-            <a href="bioinformatics.html">Bioinformatics</a>
-          </li>
-         </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://mathbioinfo.github.io/amjadkhan/">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="Data/cvkhan.pdf" target="_blank">CV</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="presentations.html">Publications</a></li>
+          <li><a href="">Linux</a></li>
+          <li><a href="bioinformatics.html">Bioinformatics</a></li>
+        </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
   </nav>
+
 
   <div class="container theme-showcase" role="main">
     <div class="jumbotron">
